@@ -1,5 +1,41 @@
 .sub-section {
+  background-color: rgb(37, 39, 46);
+  .wrapper {
+    padding: 40px 40px 40px 70px;
+    font-size: larger;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    //background-color: rgba(255,255,255,0.8);
+
+    color: #f7f8fa;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+}
+.sub-section .second-line {
+  padding-left: 100px; }
+.sub-section .third-line {
+  padding-left: 150px; }
+.sub-section .fourth-line {
+  padding-left: 200px; }
+.sub-section .fifth-line {
+  padding-left: 250px; }
+
+
+div.inline.centre {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  p {
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+  }
+}
+section {
   max-width: 800px;
+  padding: 40px;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgba(255,255,255,0.8);
 }

@@ -1,12 +1,15 @@
-<header>
+<header class="header">
+
     <div class="wrapper">
-        {% if page.title %}
-            <div class="title">{{ page.title }}</div>
-        {% endif %}
-        <div class="name">
-            <a href="/">Marvin A Brock Sr.</a>
+        <a href="/" class="site-name">
+            <div class="name">
+                Marvin A Brock Sr.
+            </div>
+            <div class="tag-line">The Journey of a Lifetime...</div>
+        </a>
+        <div class="nav">
+            {% include nav.html %}
         </div>
-        <div class="tag-line">The Journey of a Lifetime...</div>
     </div>
 </header>
 

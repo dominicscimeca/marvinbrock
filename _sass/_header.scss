@@ -1,14 +1,16 @@
 header {
-  padding: 5px 15px 10px;
-  background-color: rgba(255,255,255,.5);
+  padding: 0px 15px 10px;
+  background-color: white;
   left: 0;
   right: 0;
   top: 0;
   position: fixed;
+  z-index: 10;
 
   .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
 
     .name {
       left: 10px;
@@ -31,6 +33,36 @@ header {
 
     .tag-line {
       font-size: 15px;
+
+      margin-top: -17px;
+    }
+
+    .nav {
+      position: absolute;
+      top: 0px;
+      right: 5px;
+
+      .go-fund-me-logo {
+        margin-top: -2px;
+        width: 80px;
+        float: right;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+.frontpage-body{
+  padding-top: 0;
+  header{
+    top: 249px;
+    position: absolute;
+    height: 70px;
+    .wrapper {
+      height: 70px;
+      background-color: white;
+      .site-name {
+        display: none
+      }
     }
   }
 }
