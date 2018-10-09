@@ -1,0 +1,171 @@
+.image {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.caption {
+  text-align: center; }
+
+.row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 20px; }
+
+.row p {
+  color: black;
+  font-size: 12pt;
+  text-align: left;
+  margin-top: 10px; }
+
+.row div:hover {
+  color: black;
+  text-decoration: underline; }
+
+.row div {
+  /* display: flex; */
+  align-items: center;
+  margin-right: 20px; }
+
+.row div div {
+  width: 200px;
+  margin-left: 20px; }
+
+.row a {
+  text-align: center;
+  text-decoration: none;
+  color: black; }
+
+.hero.frontpage {
+  background-image: url("/images/marvin-hero-with-text.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.hero h1 {
+  margin: 0;
+  font-size: 40pt; }
+
+.hero h2 {
+  font-style: italic; }
+
+.hero {
+  /* width: 100vw; */
+  height: 40vh; }
+
+body {
+  margin: 0;
+  font-family: 'Bree Serif', serif; }
+
+.frontpage.title {
+  padding-top: 50px;
+  width: 500px;
+  text-align: right; }
+
+footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  footer div {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 200px; }
+  footer h3 {
+    font-size: smaller;
+    margin: 0; }
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.page.hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 50vh; }
+
+#canoe {
+  background-image: url("/images/canoe-hero.png"); }
+
+#sixties {
+  background-image: url("/images/band.jpg"); }
+
+#childhood {
+  background-image: url("/images/bermuda-map.png"); }
+
+#pine-forge {
+  background-image: url("/images/adventist.jpg"); }
+
+.slick-prev:before, .slick-next:before {
+  font-family: FontAwesome;
+  font-size: 40px;
+  line-height: 1;
+  color: black;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.slick-prev:before {
+  content: "\f053"; }
+
+[dir="rtl"] .slick-prev:before {
+  content: "\f054"; }
+
+[dir="rtl"] .slick-next {
+  left: -10px;
+  top: 70px;
+  right: auto; }
+
+.slick-next:before {
+  content: "\f054"; }
+
+[dir="rtl"] .slick-next:before {
+  content: "\f053"; }
+
+.caro img {
+  max-width: 500px; }
+
+html, body {
+  height: 100%; }
+
+header {
+  height: 50px;
+  position: relative; }
+  header .name {
+    left: 10px;
+    display: inline-block;
+    position: absolute;
+    font-size: 24pt; }
+  header .title {
+    position: absolute;
+    right: 10px;
+    font-size: 20pt; }
+
+.sub-section {
+  padding-left: 100px;
+  margin-bottom: 100px;
+  font-size: larger; }
+  .sub-section .second-line {
+    padding-left: 100px; }
+  .sub-section .third-line {
+    padding-left: 150px; }
+  .sub-section .fourth-line {
+    padding-left: 200px; }
+  .sub-section .fifth-line {
+    padding-left: 250px; }
+
+div.inline {
+  width: 50%; }
+  div.inline img {
+    width: 100%; }
+  div.inline.right {
+    float: right;
+    margin-left: 30px; }
+  div.inline.left {
+    float: left;
+    margin-right: 30px; }
+  div.inline.centre {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center; }
