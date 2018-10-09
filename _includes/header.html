@@ -1,5 +1,12 @@
-<header><div class="name"> Marvin A Brock Sr.</div><div class="title">The Journey of a Lifetime...</div></header>
-<div class="text-center jumbotron">
-    <h2>{{ page.title }}</h2>
-    <h3><a href="index.html">Return home</a></h3>
-</div>
+<header>
+    <div class="wrapper">
+        {% if page.title %}
+            <div class="title">{{ page.title }}</div>
+        {% endif %}
+        <div class="name">
+            <a href="/">Marvin A Brock Sr.</a>
+        </div>
+        <div class="tag-line">The Journey of a Lifetime...</div>
+    </div>
+</header>
+
