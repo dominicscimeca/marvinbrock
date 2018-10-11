@@ -1,5 +1,4 @@
 header {
-  padding: 0px 15px 10px;
   background-color: white;
   left: 0;
   right: 0;
@@ -9,6 +8,7 @@ header {
 
   .wrapper {
     max-width: 800px;
+    padding: 0px 15px 10px;
     margin: 0 auto;
     position: relative;
 
@@ -58,9 +58,7 @@ header {
 .frontpage-body{
   padding-top: 0;
   header{
-    top: 249px;
-    position: absolute;
-    height: 70px;
+    position: relative;
     .wrapper {
       height: 70px;
       background-color: white;
