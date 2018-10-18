@@ -23,7 +23,7 @@ footer {
       display: block;
       overflow: auto;
       &.main {
-        height: 300px;
+        margin-bottom: 100px;
         & > li {
           width: 33.333%;
           padding: 39px;
@@ -35,8 +35,14 @@ footer {
           a {
             color: #fff;
           }
-          li a {
-            font-size: .7rem;
+          & > ul {
+            margin-left: 0;
+            li a {
+              font-size: .8rem;
+            }
+          }
+          @media (max-width: 700px) {
+            width: 100%;
           }
         }
         .first {
