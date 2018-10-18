@@ -1,7 +1,19 @@
 <header class="header">
     {% if page.frontpage %}
         <div class="fullbleed">
-            <img src="/images/marvin-hero-with-text.jpg" alt="">
+            <div class="text">
+                <h1>
+                    <div>
+                        <span class="first">The</span> Journey of a Lifetime</div>
+                    <div>
+                        <a href="https://www.gofundme.com/healing-for-marvin" class="donate">
+                            <img class="go-fund-me-logo" src="/images/gfm-logo-single-2016.png">
+                            Help Marvin fight stage 4 cancer →
+                        </a>
+                    </div>
+
+                </h1>
+            </div>
         </div>
     {% endif %}
     <div class="wrapper">
@@ -9,10 +21,14 @@
             <div class="name">
                 Marvin A Brock Sr.
             </div>
-            <div class="tag-line">The Journey of a Lifetime...</div>
+            <div class="tag-line">The Journey of a Lifetime</div>
         </a>
         <div class="nav">
-            {% include nav.html %}
+            <div id="menuzord" class="menuzord gray">
+                <ul class="menuzord-menu">
+                    {% include nav.html %}
+                </ul>
+            </div>
         </div>
     </div>
 </header>

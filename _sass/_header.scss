@@ -61,9 +61,47 @@ header {
     position: relative;
     .wrapper {
       height: 70px;
-      background-color: white;
+      position: absolute;
+      top: 47px;
+      right: 0px;
+      left: 0px;
+      background-color: transparent;
+      padding: 0 38px;
+      max-width: none;
       .site-name {
+        float: left;
+      }
+      .site-name .name{
+        color: #fff;
+        @media (max-width: 400px) {
+          font-size: 26px;
+        }
+      }
+      .site-name .tag-line {
         display: none
+      }
+      .nav {
+        right: 0;
+        top: -7px;
+
+        .menuzord .showhide em {
+          background-color: white;
+        }
+
+        #menuzord {
+          background: transparent;
+          .showhide {
+            top: 11px;
+            position: relative;
+          }
+          .menuzord-menu > li > a {
+            color: white;
+            text-transform: uppercase;
+            @media (max-width: 900px) {
+                color: initial;
+            }
+          }
+        }
       }
     }
   }

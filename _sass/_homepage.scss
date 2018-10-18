@@ -1,25 +1,144 @@
 .container-fluid.front-page {
-  .row{
-    .card-link{
-      border-bottom: 2px solid #F26522 !important;
-      text-align: center;
-      background-color: white;
-      border: 1px solid #eeeeee;
+  .header {
+    float: left;
+    width: 300px;
+    margin-top: 100px;
+    .title {
+      left: 10px;
+      display: inline-block;
+      font-size: 24pt;
+      color: black;
+      font-family: 'Playfair Display', serif;
+    }
+    .description {
+      font-size: 15px;
+      width: 200px;
+    }
+  }
+  .cards {
+    padding-left: 30%;
+    margin-top: 100px;
+    .card-link {
+      float: left;
+      margin-right: 60px;
+      margin-bottom: 30px;
       .text {
         padding: 0px;
         width: 120px;
         display: block;
-        margin: 30px auto;
+        margin: 30px 0;
         height: 50px;
         .name {
-          color: #F26522 !important;
-          text-align: center;
+          color: black !important;
         }
         .date {
           text-decoration: underline;
           text-align: center;
           display: none;
         }
+        .description {
+
+        }
+        .read-more {
+          color: #52c2c8;
+          &:hover {
+            color: rgba(82, 194, 200, .6);
+          }
+        }
+      }
+
+      @media (max-width: 400px) {
+        .text {
+          width: 50px;
+          .name {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.fullbleed {
+  height: 100vh;
+  position: relative;
+  background: url(/images/large/Marvin%20sittin%20on%20the%20side%20of%20the%20bay.JPG) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .text {
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 45px;
+  }
+
+  .name {
+    font-family: Fjalla One;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    text-transform: none;
+    color: #fff;
+    padding: 0 17px;
+  }
+
+  h1 {
+    font-family: Fjalla One;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    text-transform: none;
+    color: #fff;
+    padding: 17px;
+
+    position: absolute;
+    bottom: 50px;
+    .first {
+      background: rgba(0,0,0,.8);
+    }
+    .donate {
+      display: inline-block;
+      width: auto;
+      height: auto;
+      color: #fff;
+      border-width: 0;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-style: normal;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      line-height: 160%;
+
+      padding: 21px 34px;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: Fjalla One;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: normal;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: #fff;
+      background-color: #000;
+      border-color: #000;
+
+      position: relative;
+
+      img {
+        position: absolute;
+        bottom: 100%;
+        right: 0;
+        width: 30px;
+        display: none;
       }
     }
   }

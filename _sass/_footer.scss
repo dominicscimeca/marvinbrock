@@ -1,10 +1,8 @@
 footer {
-  background-color: rgb(37, 39, 46);
+  background-color: black;
   overflow: auto;
-  padding: 10px 50px 50px;
   margin-top: 50px;
   .wrapper {
-    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 
@@ -21,11 +19,59 @@ footer {
     h2 {
       color: #eee;
     }
-    ul {
-      float: left;
-      width: auto;
-      &.first {
-        padding-right: 30%;
+    ul.top {
+      display: block;
+      overflow: auto;
+      &.main {
+        height: 300px;
+        & > li {
+          width: 33.333%;
+          padding: 39px;
+          text-align: center;
+          overflow: hidden;
+          &:hover {
+            height: auto;
+          }
+          a {
+            color: #fff;
+          }
+          li a {
+            font-size: .7rem;
+          }
+        }
+        .first {
+          background-color: #EAAD70;
+        }
+        .second {
+          background-color: #B03C3A;
+        }
+        .third {
+          background-color: #58C2C8;
+        }
+      }
+      &.secondary {
+        & > li {
+          width: 50%;
+          padding-right: 10%;
+          &.first {
+            padding-left: 10%;
+          }
+        }
+      }
+      & > li {
+        & > a {
+          color: #fff;
+          font-size: 1rem;
+          font-weight: 600;
+          line-height: 1.42857143;
+          display: block;
+        }
+        float: left;
+        padding-bottom: 20px;
+        width: auto;
+        & > ul {
+          margin-top: 40px;
+        }
       }
     }
   }
